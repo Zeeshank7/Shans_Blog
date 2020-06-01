@@ -1,0 +1,144 @@
+.logo{
+    width: 50px;
+}
+.logosheading{
+    font-weight: bold !important;
+    font-size: 30px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: whitesmoke;
+}
+@media screen and (max-width: 600px){
+ .logosheading{
+     display: flex;
+     flex-wrap: wrap;
+ }
+}
+.navbar{
+    background-color: royalblue !important;
+}
+.fa-user-circle-o,.fa-user-plus{
+ font-size: 25px !important;
+}
+.btn-outline-success{
+    color: white !important;
+    border-color: black !important;
+}
+.articlesheading,.Recepicesheading{
+    text-align: center;
+    text-shadow: 2px 4px 5px grey;
+    color: royalblue;
+    }
+/* RECEPICES SECTION */
+.hmr,.featuredRecepices{
+    text-align: center;
+    text-shadow: 2px 4px 5px grey;
+    color: royalblue;
+    background-color: palevioletred;
+    height: 100px;
+    padding-top: 20px;
+    font-size: 50px;
+}
+.articles,.Recepices{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.card1,.card2,.card3{
+    
+box-shadow: 2px 4px 5px gray;
+margin-bottom: 20px;
+}
+.footer{
+    background-color: royalblue;
+    color: white;
+    height: 50px;
+    width: 100%;
+    
+    text-align: center;
+    align-items: center;
+}
+/* sign in */
+/* sing in page Css  (Coding) */
+.heading{
+    margin-top: 50px;
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+h2{
+    font-size: xx-large !important;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+       
+}
+
+INPUT{
+    font-size: 20px;
+    width: 40%;
+    margin: 10px;
+}
+.fpass{
+    justify-content: right !important;
+    text-decoration: underline;
+}
+input.email{
+    background-image: url(Images/Mail-icon.png);
+    background-repeat: no-repeat;
+    background-size: 35px;
+    padding:  5px 5px 5px 40px;    
+}
+input.password{
+    background-image: url(Images/password.png);
+    background-repeat: no-repeat;
+    background-size: 35px;
+    padding:  5px 5px 5px 40px;
+    
+}
+.h1heading{
+    font-size: 50px ;
+    padding-top: 100px;
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+/* about us */
+.maindiv{
+    background-image: url(images/desktop.png);
+    background-size: auto;   
+    background-repeat: no-repeat;
+    
+}
+.story{
+text-align: center;
+}
+/* Contact us */
+
+.contheading{
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+
+}
+.Maincont{
+    text-align: center;
+}
+@media screen and (max-width: 600px){
+    textarea{
+        width: 350px;
+    }
+
+   }
